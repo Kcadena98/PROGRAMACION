@@ -26,7 +26,7 @@ public class PLAYERS {
 
 	  public static void log(String message)
 	  {
-	    try (PrintStream out = new PrintStream(new FileOutputStream("deibi.txt", true))) {
+	    try (PrintStream out = new PrintStream(new FileOutputStream("karen.txt", true))) {
 	      out.println(message);
 	    } catch (Exception e) {
 	      e.printStackTrace();
