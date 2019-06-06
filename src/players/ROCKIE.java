@@ -3,7 +3,7 @@ package players;
 import application.Board;
 import application.Move;
 
-public class Rookie implements Player {
+public class ROCKIE implements Player {
 
 private static double distancia;
 
@@ -123,7 +123,7 @@ private static double distancia;
 	 * @param distancia the distancia to set
 	 */
 	public static void setDistancia(double distancia) {
-		Rookie.distancia = distancia;
+		ROCKIE.distancia = distancia;
 	}
 }
 		
